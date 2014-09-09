@@ -16,18 +16,12 @@ var shoppingApp = {
 		// Adds item to shopping list
 		var item = $("#item").val();
 		var checkbox = ('<input type="checkbox">');
-		var del = ('<a href="#" id="delete">Delete</a>');
+		var del = ('<a href="#" id="delete"><img src="img/trash.png"></a>');
 		if(shoppingApp.validate()) {
 			$(".uncomplete ul").append('<li>'+checkbox + "  " + item + "  " +del+'</li>');
 			$("#item").val("");
 		}
 		return false;
-	},
-
-	submitItem: function(){
-		//the add button
-		$('#button').click(shoppingApp.addItem());
-
 	},
 
 	deleteItem: function(event) {

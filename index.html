@@ -2,18 +2,22 @@
 <html>
 	<head>
 		<title>Shopping List</title>
+		<link href= "img/logo3.jpg" rel="shortcut icon" type="image/x-icon">
 		<link rel="stylesheet" href="css/style.css">
 		<meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
 	</head>
 	<body>
 		<header>
-			<h1>Perfect Shopping</h1>
+			<h1><img src = "img/list.png">Perfect Shopper<img src = "img/cart1.png"></h1>
 			<h2>...the easiest way to shop accurately!!!</h2>
 		</header>
 		<div class="search">
-			<input type="text" id="item" name="search" required>
-			<button type="button" id="button">Add</button>
+			<form action="/" method="get">
+				<input type="text" id="item" name="search" required>
+				<input type="submit" id="button" value="Add">
+			</form>
 		</div>
+		
 			<div class="main">
 				<div class="uncomplete">
 					<h3>Uncomplete</h3>

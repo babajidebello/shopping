@@ -1,20 +1,38 @@
 /*the body of the entire app*/
 body {
-	background: url(../img/wood4.jpg);
+	background: url(../img/plank1.jpg);
 	font-family: sans-serif;
 }
 
+header {
+	width: 100%;
+	background-color: white;
+}
+
 h1 {
-	margin: 40px 0 0 80px;
+	margin: 10px 0 0 20px;
 	font-weight: bold;
 	font-size: 30px;
-	color: #fff;
+	color: black;
 }
 
 h2 {
 	font-size: 18px;
-	margin: 10px 0 0 60px;
-	color: #fff;
+	font-style: italic;
+	font-weight: lighter;
+	text-align: center;
+	padding-bottom: 5px;
+	margin: 10px 0 0 0;
+	color: black;
+}
+
+img {
+	border-radius: 5px;
+	padding-top: 10px;
+}
+
+input {
+	text-align: center;
 }
 
 .search {
@@ -60,6 +78,18 @@ h2 {
 .complete, .uncomplete {
 	width: 49%;
 	background-color: #999;
+}
+
+.uncomplete {
+	color: green;
+}
+
+.complete {
+	color: red;
+}
+
+.complete li {
+	text-decoration: line-through;
 }
 
 h3 {
