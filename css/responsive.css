@@ -1,0 +1,22 @@
+ @media screen and (max-width: 480px) {
+
+	.main div {
+		display: block;
+		min-width: 100px;
+		background-color: white;
+	}
+	
+	.complete, .uncomplete {
+	width: 100%;
+	background-color: #999;
+	}
+
+	h3 {
+		font-size: 18px;
+	}
+
+	li {
+		font-size: 13px;
+	}
+
+}

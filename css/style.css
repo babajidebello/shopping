@@ -60,9 +60,9 @@ input {
 
 .main {
 	margin: auto;
-	width: 70%;
+	width: 80%;
 	height: 70%;
-	padding: 10px 10px;
+	padding: 5px 5px;
 	background-color: white;
 	margin-top: 10px;	
 	border-radius: 5px;
@@ -70,13 +70,12 @@ input {
 }
 .main div {
 	display: inline-block;
-	min-width: 50px;
 	vertical-align: top;
 	background-color: white;
 }
 
 .complete, .uncomplete {
-	width: 49%;
+	width: 40%;
 	background-color: #999;
 }
 
