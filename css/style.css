@@ -17,13 +17,22 @@ h1 {
 }
 
 h2 {
-	font-size: 18px;
+	font-size: 20px;
 	font-style: italic;
 	font-weight: lighter;
 	text-align: center;
 	padding-bottom: 5px;
 	margin: 10px 0 0 0;
 	color: black;
+}
+
+h3 {
+	text-align: center;
+	font-size:20px; 
+}
+
+ul {
+	list-style: none;
 }
 
 img {
@@ -60,6 +69,7 @@ input {
 
 .main {
 	margin: auto;
+	text-align: center;
 	width: 80%;
 	height: 70%;
 	padding: 5px 5px;
@@ -69,6 +79,7 @@ input {
 	clear: both;
 }
 .main div {
+	text-align: center;
 	display: inline-block;
 	vertical-align: top;
 	background-color: white;
@@ -91,10 +102,4 @@ input {
 	text-decoration: line-through;
 }
 
-h3 {
-	text-align: center;
-}
 
-ul {
-	list-style: none;
-}
