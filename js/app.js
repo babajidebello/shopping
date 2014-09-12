@@ -6,7 +6,7 @@ var shoppingApp = {
 
 		var item = $('#item').val();
 		if ($.trim(item) === "") {
-			alert("Please enter something");
+			alert("Please enter an item to Add to list");
 		} else {
             return item;
 		}
@@ -27,7 +27,9 @@ var shoppingApp = {
 	deleteItem: function(event) {
 		//delete item from the list
 		event.preventDefault();
-		$(this).parent().remove();
+		$(this).parent().slideUp(200, function (){
+			$(this).remove();
+		});
 	},
 
 

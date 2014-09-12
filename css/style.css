@@ -32,7 +32,11 @@ h3 {
 }
 
 ul {
-	list-style: none;
+	list-style: decimal;
+}
+
+li {
+	text-align: left;
 }
 
 img {
